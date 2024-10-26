@@ -1,6 +1,6 @@
-const ul = document.querySelector("ul");
-const li = document.createElement('li');
+const buttontwo = document.querySelector(".button-2");
+function alertbtn(){
+    alert("i hate you");
+};
 
-console.log(li);
-
-ul.append(li);
+buttontwo.addEventListener("click" , alertbtn);
