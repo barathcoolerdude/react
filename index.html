@@ -7,9 +7,24 @@
     <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="root">
+    <h1>Event listeners</h1>
+
+    <div class="container">
+        <div class="boxes box-1">
+            <h1 id="heading">Example1</h1>
+            <button onclick="alert('i love you')">Enter</button>
+        </div>
+        <div class="boxes box-2">
+            <h1 id="heading">Example2</h1>
+            <button onclick="alert('i hate you')">Enter</button>
+        </div>
+        <div class="boxes box-3">
+            <h1 id="heading">Example3</h1>
+            <button onclick="alert('i may love you')">Enter</button>
+        </div>
     </div>
     
     <script src="index.js" type="text/babel"></script>

@@ -1,14 +1,6 @@
-const webpage = (
-    <div>
-    <img src="./images/image.jpeg" alt="image" />
-    <h1>this is react</h1>
-    <ul>
-        <li>thing1</li>
-        <li>thing2</li>
-        <li>thing3</li>
-        <li>thing4</li>
-    </ul>
-    </div>
-)
+const ul = document.querySelector("ul");
+const li = document.createElement('li');
 
-ReactDOM.render(webpage , document.getElementById("root"));
+console.log(li);
+
+ul.append(li);
