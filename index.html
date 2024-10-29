@@ -8,22 +8,25 @@
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
    <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Event listeners</h1>
-
     <div class="container">
-        <div class="boxes box-1">
-            <h1 id="heading">Example1</h1>
-            <button onclick="alert('i love you')">Enter</button>
+        <div class="header">
+            <h2>javascript qoute generator</h2>
         </div>
-        <div class="boxes box-2">
-            <h1 id="heading">Example2</h1>
-            <button class="button-2">Enter</button>
-        </div>
-        <div class="boxes box-3">
-            <h1 id="heading">Example3</h1>
-            <button class="button-3">Enter</button>
+        <div class="main_content">
+            <div class="text_area">
+                <span class="quote">
+                    If you look at what you have in life, you'll always have more. If you look at what you don't have in life, you'll never have enough.
+                </span>
+            </div>
+            <div class="author">- Oprah Winfrey</div>
+            <div class="button_area">
+                <button id="new_qoute">New qoute</button>
+            </div>
         </div>
     </div>
     

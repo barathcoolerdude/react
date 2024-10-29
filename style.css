@@ -1,3 +1,71 @@
-#container{
-    border: 5px solid;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+    text-align: center;
+    background:url(images/image.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container{
+    width:550px;
+    height:400px;
+}
+
+.header{
+    font-size:1.4rem;
+    border:solid 2px;
+    border-color: aliceblue;
+    color: hsl(0, 33%, 18%);
+    padding: 5px 5px 20px 5px;
+    width:80%;
+    margin:20px auto;
+    border-radius: 10px;
+}
+
+.main_content{
+    margin:20px;
+    font-size: large;
+    border: solid 1px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+    text-align: left;
+    background-color: aliceblue;
+    box-shadow: 2px 0px 10px;
+    min-height: 200px;
+}
+
+.main_content .text_area{
+    font-size: larger;
+    min-height: 150px;
+}
+
+.main_content .author{
+    font-size: larger;
+    text-align: right;
+}
+
+.button_area {
+    text-align: center;
+    align-items: center;
+    margin-top:20px;
+    margin: 10px 20px;
+}
+
+button{
+    background-color: aquamarine;
+    padding: 5px;
+    border-radius: 5px;
+}
+
